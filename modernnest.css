@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header navbar styling here. */
+.header{
+    background-color: white;
+    font-family: sans-serif;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    align-content: center;
+    z-index: 1;
+}
+
+.main-heading{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.navbar ul{
+    margin-right: 50px;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    position: relative;
+    bottom: 20px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 5px black;
+}
+
+/* home page styling here. */
+.home-section{
+    background-image: url(https://plus.unsplash.com/premium_photo-1686090448517-2f692cc45187?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 100vh;
+    width: auto;
+}
+
+.home-contant{
+    position: absolute;
+    bottom: 60px;
+    left: 500px;
+    
+}
+
+.home-heading{
+    color: white;
+}
+
+.home-but{
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    background-color: chocolate;
+    color: white;
+    border: 2px black;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.home-but:hover{
+    background-color: black;
+}
+
+/* reting styling here. */
+.reting-project{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.reting-heading{
+    text-align: center;
+    color: rgb(236, 71, 11);
+}
+
+/* card styling here. */
+.cord-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 450px;
+}
+
+.card-div1{
+    background-image: url(https://plus.unsplash.com/premium_photo-1661963201626-2c69cfbe4f8a?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.card-div2{
+    background-image: url(https://images.unsplash.com/photo-1715796369394-7cbdfea2ccb8?q=80&w=1384&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.card-div3{
+    background-image: url(https://images.unsplash.com/photo-1699268066895-2b5066669aff?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.card-div4{
+    background-image: url(https://plus.unsplash.com/premium_photo-1671269942393-ab3372a09ce9?q=80&w=1509&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.discription-card{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 270px;
+}
+
+/* Architecture Interior styling here. */
+.interior-section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.icon-section h2{
+    color: black;
+}
+
+.interior-div1{
+    margin-left: 20px;
+}
+
+.interior-heading5{
+    color: #ff7f50;
+}
+
+.interior-div2{
+    margin-left: 40px;
+}
+
+/* icon styling here. */
+.icon-section{
+    background-color: chocolate;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.icon-section h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 20px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-div{
+    text-align: center;
+    width: 120px;
+}
+
+.icon-div i{
+    font-size: 36px;
+    color: #4b4b4b;
+    margin: 10px;
+}
+
+.icon-div p{
+    font-size: 14px;
+    color: black;
+    font-size: 16px;
+}
+
+/* house-designs-image */
+.conainer{
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.header1{
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.header1 h2{
+    margin: 0;
+}
+
+.header1 p{
+    color: black;
+    margin: 5px 0 0;
+}
+
+.view-all{
+    color: black;
+    text-decoration: none;
+    border: 2px rgba(0, 0, 0, 0.1);
+    background-color: #f1eeee;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    left: 1200px;
+}
+
+.view-all:hover{
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 5px black;
+}
+
+ .grid1{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* our information contact styling here. */
+.our-section{
+    background-color: #ff7f50;
+    height: 150px;
+    display: flex;
+    gap: 900px;
+}
+
+.contact-div{
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+.contact-div ul{
+    list-style: none;
+}
+
+.contact-div a{
+    color: white;
+    text-decoration: none;
+}
+
+/* next div */
+.contact-our{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+}
+
+.contact-our h2{
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.one-info{
+    margin-bottom: 10px;
+}
+
+
+.contact-our i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.contact-our ul{
+    list-style: none;
+}
+
+.contact-our a{
+    color: white;
+    text-decoration: none;
+}
+
+/* footer styling here. */
+.foot{
+    height: 30px;
+    text-align: center;
+    align-content: center;
+    background-color: chocolate;
+    color: white;
+}

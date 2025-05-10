@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header and navbar styling */
+.header{
+    display: flex;
+}
+.header h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 20px;
+    gap: 40px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline yellow;
+    text-decoration-thickness: 20%;
+}
+
+.icon-container{
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* home page styling */
+.main-section{
+    background-image: url(https://images.unsplash.com/photo-1745151718369-9299e16e7998?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+}
+
+.contant-conainer{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.contant-conainer h2{
+    color: white;
+}
+.contant-conainer p{
+    line-height: 1.5;
+    color: white;
+}
+.but-conaitner{
+    margin-top: 20px;
+}
+.but-conaitner button{
+    border: 2px white;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.but-conaitner button:hover{
+    color: black;
+    background-color: rgb(255, 255, 0);
+}
+
+/* section two material section */
+.material-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.material-item h2{
+    background-color: red;
+} 
+
+.material-item  p{
+    line-height: 1.5;
+}
+
+.material-chair img{
+    height: 300px;
+    width: auto;
+}
