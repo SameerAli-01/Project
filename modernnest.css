@@ -22,6 +22,7 @@ body{
 .main-heading{
     margin-left: 10px;
     margin-top: 5px;
+    cursor: grab;
 }
 
 .navbar ul{
@@ -35,28 +36,35 @@ body{
 }
 
 .navbar ul li a{
-    font-size: 20px;
-    font-weight: 700;
     text-decoration: none;
+    font-size: 20px;
     color: black;
 }
 
 .navbar ul li a:hover{
+    padding: 4px;
     border-radius: 5px;
-    box-shadow: 2px 3px 4px 5px black;
+    background-color: #4b4b4b;
+    color: #f1eeee;
+    
+    
 }
 
 /* home page styling here. */
 .home-section{
     background-image: url(https://plus.unsplash.com/premium_photo-1686090448517-2f692cc45187?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    height: 100vh;
+    height: 450px;
     width: auto;
 }
 
 .home-contant{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* position: absolute;
     bottom: 60px;
-    left: 500px;
+    left: 500px; */
     
 }
 
@@ -72,7 +80,7 @@ body{
     color: white;
     border: 2px black;
     margin-left: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .home-but:hover{
@@ -200,7 +208,7 @@ body{
     font-size: 16px;
 }
 
-/* house-designs-image */
+/* house designs image contant */
 .conainer{
     min-width: 1200px;
     margin: 0 auto;
@@ -233,25 +241,55 @@ body{
 }
 
 .view-all:hover{
-    border-radius: 5px;
-    box-shadow: 2px 3px 4px 5px black;
+    padding: 5px;
+    background-color: #e6e1e1;
+    color: rgb(12, 12, 9);
 }
 
- .grid1{
+/* grid house image style */
+.container-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 15px;
-    margin-bottom: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
+    height: 300px;
+    grid-template-areas: "grid-image1 grid-image1 grid-image2 grid-image3"
+    "grid-image4 grid-image5 grid-image5 grid-image6";
+    grid-template-columns: 200px, 1fr, 1fr;
+    grid-template-rows: 1fr, 200px, 1fr;
+    gap: 10px;
+
 }
 
-.grid1 img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+.grid-image1{
+    grid-column: span 2;
+    background-color: black;
 }
+.grid-image2{
+     /* height: 50px;
+    width: 50px; */
+    background-color: yellow;
+}
+.grid-image3{
+    /* height: 50px;
+    width: 50px; */
+    background-color: aqua;
+}
+.grid-image4{
+    /* height: 50px;
+    width: 50px; */
+    background-color: green;
+}
+.grid-image5{
+    /* height: 50px;
+    width: 50px; */
+    grid-column: span 2;
+    background-color: blueviolet;
+}
+.grid-image6{
+    /* height: 50px;
+    width: 50px; */
+    background-color: darkred;
+}
+
 
 
 /* our information contact styling here. */

@@ -78,7 +78,7 @@ body{
 }
 
 /* section two material section */
-.material-section{
+.material-container{
     display: flex;
     justify-content: center;
     gap: 40px;
