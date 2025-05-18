@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 /* header navbar styling here. */
@@ -261,33 +261,15 @@ body{
 
 .grid-image1{
     grid-column: span 2;
-    background-color: black;
-}
-.grid-image2{
-     /* height: 50px;
-    width: 50px; */
-    background-color: yellow;
-}
-.grid-image3{
-    /* height: 50px;
-    width: 50px; */
-    background-color: aqua;
-}
-.grid-image4{
-    /* height: 50px;
-    width: 50px; */
-    background-color: green;
 }
 .grid-image5{
-    /* height: 50px;
-    width: 50px; */
     grid-column: span 2;
-    background-color: blueviolet;
 }
-.grid-image6{
-    /* height: 50px;
-    width: 50px; */
-    background-color: darkred;
+
+.grid-img img{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -297,7 +279,9 @@ body{
     background-color: #ff7f50;
     height: 150px;
     display: flex;
-    gap: 900px;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 50px;
 }
 
 .contact-div{
@@ -318,8 +302,7 @@ body{
 /* next div */
 .contact-our{
     margin-top: 30px;
-    margin-left: 20px;
-    color: white;
+    color: azure;
 }
 
 .contact-our h2{
