@@ -13,10 +13,16 @@ body{
     background-color: white;
     font-family: sans-serif;
     height: 60px;
-    width: 100%;
-    position: fixed;
+    width: auto;
+    /* position: fixed; */
     align-content: center;
     z-index: 1;
+    
+}
+@media (max-width: 572px){
+  .navbar{
+    display: none;
+  }
 }
 
 .main-heading{
@@ -336,4 +342,16 @@ body{
     align-content: center;
     background-color: chocolate;
     color: white;
+}
+
+@media (max-width: 676px){
+    .container{
+    grid-template-rows: 150px 1fr 1fr;
+    grid-template-columns: 1fr;
+
+    grid-template-areas: 
+    "image"
+    "port-content"
+    "social-media";
+    }
 }
